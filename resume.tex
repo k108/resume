@@ -1,0 +1,100 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Sudhanshu Kaushik}
+\personalinfo{
+  \email{sudhanshukaushik1.61803@gmail.com}
+  \phone{+91-9646992556}
+  \location{Bengaluru, Karnataka, India - 560045}
+  \github{https://github.com/k108}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Machine Learning Engineer}{Cognizant}{September 2016 -- Present}{Bengaluru, India}
+\begin{itemize}
+\item Working in Cognitive Engineering team of Cognizant’s \href{https://www.cognizant.com/automation-center}{Automation Center} Project.
+\smallskip
+\item Developed Machine Learning RESTfull Engines(Text Classification, Time Series Forecasting, Recommendation, Text Summarizer, Outage Prediction).
+\smallskip
+\item Developed End to End Production grade Machine Learning Module consisting of Data Feeder, Trainer and Model Manager for Horizontal Scaling and Monitoring.
+\smallskip
+\item Docker containerized Machine Learning RESTfull engines using Alpine Linux base image for automated build.
+\end{itemize}
+
+\cvsection{TECHNICAL SKILLS}
+\smallskip
+\begin{itemize}
+\item Pandas, Scikit-learn, NumPy, Flask, SQLAlchemy, Python-Eve, Rundeck, Docker, Git
+\smallskip
+\item Python, SQL
+\smallskip
+\item Machine Learning, Data Science
+\smallskip
+\item PostgreSQL, Linux
+\smallskip 
+\end{itemize}
+
+\cvsection{Courses}
+\smallskip
+\begin{itemize}
+\item Python For Data Science CognitiveClass PY0101EN[\href{https://www.dropbox.com/s/iwxkw1sg1jnrsj3/Cognitiveclass\%20PY0101EN\%20Certificate\%20_\%20Cognitive\%20Class.pdf?dl=0}{Certificate}]
+\item Data Analysis with Python CognitiveClass DA0101EN[\href{https://www.dropbox.com/s/w9udsb9ndrb8agj/CognitiveClass\%20DA0101EN\%20Certificate\%20_\%20Cognitive\%20Class.pdf?dl=0}{Certificate}]
+\item Machine Learning with Python CognitiveClass ML0101ENv3
+\item Pandas by Kaggle Learn[\href{https://www.dropbox.com/s/fb1hvlu12zobv00/SudhanshuKaushik\%20-\%20Pandas.png?dl=0}{Certificate}]
+\item Intro to SQL by Kaggle Learn[\href{https://www.dropbox.com/s/5s1cn3cqyq16wqw/SudhanshuKaushik\%20-\%20Intro\%20to\%20SQL.png?dl=0}{Certificate}]
+\item Python by Kaggle Learn[\href{https://www.dropbox.com/s/dsvbsbkx99rtvc1/SudhanshuKaushik\%20-\%20Python.png?dl=0}{Certificate}]
+\item Machine Learning by Stanford University, Coursera
+\end{itemize}
+
+\cvsection{Achievements}
+\smallskip
+\begin{itemize}
+\item Joined Cognizant as an Orbit Shifter (Top 2\% of campus recruits), a special batch through Cognizant’s Early Engagement          Competitive Programming Platform[\href{https://www.dropbox.com/s/46gp0t9b6dyp6zo/OrbitShifterCertf.pdf}{Certificate}]
+\item Rising Star Award for making a mark within Business Unit within a short span in Cognizant[\href{https://www.dropbox.com/s/pp53covrsp5s2wu/RisingStarAward.pdf}{Certificate}]
+\item \href{https://www.hackerrank.com/results/w30/SudhanshuKaushik}{Won a silver medal in HackerRank Week of Code 30}
+\item \href{https://www.dropbox.com/s/pdbp1gtypb82c45/Gmail\%20-\%202017\%20Facebook\%20Hacker\%20Cup\%20Round\%201.pdf?dl=0}{Qualified Facebook Hacker Cup 2017 with global rank of 9033}
+\item \href{https://www.stopstalk.com/user/profile/darthc0der}{Competitive programming} :-
+\begin{itemize}
+\item HackerRank Handle : \url{https://www.hackerrank.com/SudhanshuKaushik}
+\item CodeChef Handle : \url{https://www.codechef.com/users/darthc0der}
+\item HackerEarth Handle : \url{https://www.hackerearth.com/@darthc0der}
+\end{itemize}
+\end{itemize}
+
+\clearpage
+
+\nocite{*}
+
+\end{document}
